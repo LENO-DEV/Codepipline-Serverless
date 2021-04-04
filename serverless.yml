@@ -1,0 +1,13 @@
+service: serverless-nodejs-api
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  stage: dev
+  region: ap-south-1
+
+functions:
+  getMsg:
+    handler: index.api
+    events:
+      - http: GET /
