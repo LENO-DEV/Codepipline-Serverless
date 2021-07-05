@@ -1,0 +1,14 @@
+{
+  "name": "lambda-multi-svc",
+  "description": "This directory contains sample AWS Proton Environment and Service templates to showcase how you can leverage AWS Proton Environments to create shared resources across multiple Services. The environment template contains a simple Amazon DynamoDB table and an S3 Bucket. Then there are two service templates. One service template creates a simple CRUD API service backed by Lambdas and an API gateway and includes an AWS Code Pipeline for continuos delivery. The second service template creates a data processing service that consumes data from an API, pushes that data into a kinesis stream which is then subsequently consumed by another Lambda and then pushes that data into a firehose that ends up in the S3 Bucket configured by the environment template, again offering continuous delivery via AWS CodePipeline.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
