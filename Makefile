@@ -1,1 +1,2 @@
-publish: zip -r function.zip index.js
+publish: package
+  zip -r function.zip index.js
