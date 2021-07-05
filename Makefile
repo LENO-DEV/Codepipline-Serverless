@@ -1,5 +1,5 @@
 publish: install
-	zip -r function.zip src vendor
+	zip -r function.zip index.js
 
 install:
 	npm install
