@@ -1,2 +1,1 @@
-publish: package
-        zip -r function.zip index.j
+publish: package zip -r function.zip index.j
