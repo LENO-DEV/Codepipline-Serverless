@@ -1,1 +1,5 @@
-publish: zip -r function.zip index.js
+publish: install 
+  zip -r function.zip index.js
+
+install:
+  npm i
