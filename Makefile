@@ -1,2 +1,1 @@
-publish: 
-  zip -r function.zip index.js
+publish: zip -r function.zip index.js
