@@ -5,7 +5,7 @@ module.exports.api = async event => {
     statusCode: 200,
     body: JSON.stringify(
       {
-        message: 'Go Serverless v1.0! from Proton'
+        message: 'Go v2.0! from Proton'
       },
       null,
       2
